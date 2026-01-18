@@ -26,7 +26,7 @@ The website consists of three main pages:
 - GitHub Pages  
 
 ## Live Website (GitHub Pages)
-The deployed website can be accessed at: https://cos30045-2025-minhha10-spring26.github.io/MaiMinhPhuongAnh-COS30045-Assignment/about.html
+The deployed website can be accessed at:(https://cos30045-2025-minhha10-spring26.github.io/MaiMinhPhuongAnh-COS30045-Exercise1/)
 
 ---
 
