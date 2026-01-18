@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W0 Ex0.2 Energy Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <head>
 
@@ -35,100 +35,132 @@
         </header>
 
         <!-- Main Content -->
-        <main id="televisions-page" class="page-content active">
-            <section class="hero-section">
-                <h1>How Much Energy Does Your Television Use?</h1>
-            </section>
+        <main class="main" id="televisions-page">
+            <h1 class="page_title">Television Energy Consumption in Australian Households</h1>
 
-            <section class="overview-section">
-                <h2>Overview</h2>
-                <p>
-                    Televisions are among the most frequently used electrical appliances in Australian households. With
-                    many homes
-                    operating multiple televisions daily, their combined energy consumption can contribute significantly
-                    to household
-                    electricity usage.
-                </p>
-                <p>
-                    Modern televisions are more energy-efficient than older models, but factors such as screen size,
-                    display technology,
-                    brightness settings, and usage duration still strongly influence total energy consumption.
-                </p>
-            </section>
+            <section class="overview section" id="overview">
+                <div class="overview_content container">
+                    <h2 class="section_title">Overview</h2>
 
-            <section class="tv-types-section">
-                <h2>Types of Televisions in Australian Homes</h2>
-                <p>The most common television types currently found in Australia include:</p>
-
-                <div class="tv-type">
-                    <h3>LED / LCD Televisions</h3>
-                    <p>
-                        LED and LCD televisions are widely used due to their affordability and relatively low energy
-                        consumption.
-                        Smaller screen sizes typically use less electricity, making them a popular choice for bedrooms
-                        and secondary
-                        living areas.
+                    <p class="overview_description">
+                        Televisions are among the most frequently used electrical appliances in Australian households.
+                        With
+                        many homes
+                        operating multiple televisions daily, their combined energy consumption can contribute
+                        significantly
+                        to household
+                        electricity usage.
                     </p>
-                </div>
 
-                <div class="tv-type">
-                    <h3>OLED Televisions</h3>
-                    <p>
-                        OLED televisions offer superior picture quality but generally consume more power, especially at
-                        larger screen
-                        sizes and higher brightness levels. Energy usage can increase significantly during extended
-                        viewing periods.
+                    <p class="overview_description">
+                        Modern televisions are more energy-efficient than older models, but factors such as screen size,
+                        display technology,
+                        brightness settings, and usage duration still strongly influence total energy consumption.
                     </p>
-                </div>
 
-                <div class="tv-type">
-                    <h3>Smart Televisions</h3>
-                    <p>
-                        Smart TVs include built-in internet connectivity and streaming applications. While convenient,
-                        background
-                        processes and standby modes may increase overall energy usage if not properly managed.
-                    </p>
                 </div>
             </section>
 
-            <section class="energy-consumption-section">
-                <h2>Typical Energy Consumption (Indicative)</h2>
-                <p>While exact electricity use varies by model, the following figures represent approximate average
-                    consumption:</p>
-                <ul>
-                    <li>Small LED TV (40 - 43 inch): ~100 - 120 kWh per year</li>
-                    <li>Large LED TV (55 - 65 inch): ~200 - 250 kWh per year</li>
-                    <li>OLED TV (55 inch): ~250 - 300 kWh per year</li>
-                </ul>
-                <p>Actual energy usage depends on viewing habits, brightness settings, and hours of operation.</p>
+            <section class="types section">
+                <div class="types_content container">
+
+                    <h2 class="section_title">Types of Televisions in Australian Homes</h2>
+
+                    <p>The most common television types currently found in Australia include:</p>
+
+                    <div class="tv-type card">
+                        <h3>LED / LCD Televisions</h3>
+                        <p class="type_description">
+                            LED and LCD televisions are widely used due to their affordability and relatively low energy
+                            consumption.
+                            Smaller screen sizes typically use less electricity, making them a popular choice for
+                            bedrooms
+                            and secondary
+                            living areas.
+                        </p>
+                    </div>
+
+                    <div class="tv-type card">
+                        <h3>OLED Televisions</h3>
+                        <p class="type_description">
+                            OLED televisions offer superior picture quality but generally consume more power, especially
+                            at
+                            larger screen
+                            sizes and higher brightness levels. Energy usage can increase significantly during extended
+                            viewing periods.
+                        </p>
+                    </div>
+
+                    <div class="tv-type card">
+                        <h3>Smart Televisions</h3>
+                        <p class="type_description">
+                            Smart TVs include built-in internet connectivity and streaming applications. While
+                            convenient,
+                            background
+                            processes and standby modes may increase overall energy usage if not properly managed.
+                        </p>
+                    </div>
+                </div>
             </section>
 
-            <section class="reduction-tips-section">
-                <h2>Reducing Television Energy Use</h2>
-                <p>Australian households can reduce television energy consumption by:</p>
-                <ul>
-                    <li>Selecting energy-efficient models with high energy ratings</li>
-                    <li>Reducing screen brightness where possible</li>
-                    <li>Turning off TVs completely instead of leaving them on standby</li>
-                    <li>Limiting unnecessary background app activity on smart TVs</li>
-                </ul>
+            <section class="consumption section">
+                <div class="consumption_content container">
+
+                    <h2 class="section_title">Typical Energy Consumption (Indicative)</h2>
+
+                    <div class="consumption_description">
+                        <p>While exact electricity use varies by model, the following figures represent approximate
+                            average
+                            consumption:</p>
+                        <ul>
+                            <li>Small LED TV (40 - 43 inch): ~100 - 120 kWh per year</li>
+                            <li>Large LED TV (55 - 65 inch): ~200 - 250 kWh per year</li>
+                            <li>OLED TV (55 inch): ~250 - 300 kWh per year</li>
+                        </ul>
+                        <p>Actual energy usage depends on viewing habits, brightness settings, and hours of operation.
+                        </p>
+                    </div>
+                </div>
             </section>
 
-            <section class="future-section">
-                <h2>Future Data Visualisation</h2>
-                <p>
-                    This page will later include interactive charts and visualisations to compare energy consumption
-                    across television
-                    types, sizes, and usage patterns.
-                </p>
+            <section class="reduction_tips section">
+                <div class="reduction_tips_content container">
+                    <h2 class="section_title">Reducing Television Energy Use</h2>
+
+                    <div class="reductions_tips_description">
+                        <p>Australian households can reduce television energy consumption by:</p>
+                        <ul>
+                            <li>Selecting energy-efficient models with high energy ratings</li>
+                            <li>Reducing screen brightness where possible</li>
+                            <li>Turning off TVs completely instead of leaving them on standby</li>
+                            <li>Limiting unnecessary background app activity on smart TVs</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="future section">
+                <div class="future_content container">
+
+                    <h2 class="section_title">Future Data Visualisation</h2>
+
+                    <p class="future_description">
+                        This page will later include interactive charts and visualisations to compare energy consumption
+                        across television
+                        types, sizes, and usage patterns.
+                    </p>
+                </div>
             </section>
         </main>
 
         <!-- Footer -->
-        <footer>
-            <p>&copy; 2025 Mai Minh Phuong Anh | GenAI Acknowledgement: Planning and content generated with assistance from ChatGPT by OpenAI</p>
+        <footer class="footer">
+            <p>&copy; 2025 Mai Minh Phuong Anh | GenAI Acknowledgement: Planning and content generated with assistance
+                from ChatGPT by OpenAI</p>
         </footer>
 
+        <script src="js/scripts.js"></script>
     </body>
 
 </html>
